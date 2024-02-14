@@ -1,0 +1,148 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 16px;
+    height: 16px;
+    padding: 0px 8px;
+}
+
+img#ctdi-logo {
+    width: auto;
+    height: 56px;
+}
+
+img#ctdi-logo-small {
+    width: auto;
+    height: 24px;
+}
+
+img.scroll-down-arrow {
+    width: auto;
+    height: 64px;
+}
+
+.header-country {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0px 24px;
+    margin: 0;
+    background-color: #001d3d;
+}
+
+.country-list {
+    padding: 0 15%;
+}
+
+ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Abel", Sans-serif;
+    color:antiquewhite;
+    text-align: center;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15%;
+    margin: 0;
+    background-color: #002c5f;
+}
+
+li {
+    text-decoration: none;
+    font-family: "Abel", Sans-serif;
+    color:antiquewhite;
+}
+
+.container-intro {
+    background-image: url("./images/ctdi-background.webp");
+    background-size: 100%;
+    color:antiquewhite;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25%;
+    gap: 32px;
+    width: auto;
+    height: 640px;
+}
+
+.company-description .ctdi {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Abel", Sans-serif;
+    letter-spacing: 0.4px;
+    text-transform: none;
+}
+
+.company-description .ctdi-desc1 {
+    font-size: 60px;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Abel", Sans-serif;
+    letter-spacing: .1px;
+}
+
+.company-description .ctdi-desc2 {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Abel", Sans-serif;
+    letter-spacing: 0.4px;
+}
+
+.container-intro .scroll-down-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 3%;
+    margin: 0 0;
+}
+
+.scroll-down-arrow2 {
+    width: 48px;
+    height: auto;
+    margin: -10% 0 0;
+}
+
+.container-services {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.services-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3% 10%;
+    font-size: 36px;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Abel", Sans-serif;
+    letter-spacing: .1px;
+    color: #004ca3;
+}
